@@ -44,3 +44,9 @@ air
 ```bash
 docker compose up -d
 ```
+
+## Testing the application
+
+```bash
+go test -v ./internal/handlers/...
+```
